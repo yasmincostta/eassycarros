@@ -1,29 +1,28 @@
-EXEMPLO DE EXECUÇÃO!!1!
-📌 LOGIN
-LOGIN DO SISTEMA
-Usuário: admin
-Senha: 123
+ ┌─────────────┐
+               │    INÍCIO   │
+               └──────┬──────┘
+                      ↓
+              ┌───────────────┐
+              │   LOGIN       │
+              └──────┬────────┘
+     Senha errada? ──► Não ──────────────┐
+         ↑                               │
+         └────────────── Sim ────────────┘ (Acesso negado)
 
-Login realizado com sucesso!
+                      ↓
+          ┌───────────────────────┐
+          │     MENU PRINCIPAL    │
+          └──────┬────────────────┘
+                 ↓
+  ┌────────────────────────────────────────────┐
+  │1 Cadastrar Cliente                         │
+  │2 Cadastrar Carro                           │
+  │3 Listar Clientes                           │
+  │4 Listar Carros                             │
+  │5 Alugar Carro                              │
+  │6 Devolver Carro                            │
+  │0 Finalizar                                 │
+  └────────────────────────────────────────────┘
 
-📌 MENU PRINCIPAL
-===== LOCADORA DE VEÍCULOS =====
-1 - Cadastrar Cliente
-2 - Cadastrar Carro
-3 - Listar Clientes
-4 - Listar Carros
-5 - Alugar Veículo
-6 - Devolver Veículo
-0 - Finalizar Sistema
-Escolha: 1
-
-📌 CADASTRO DE CLIENTE
-CADASTRAR CLIENTE
-Nome: Maria
-CPF: 12345678900
-
-Cliente cadastrado com sucesso!
-
-📌 FINALIZAR SISTEMA
-Encerrando o sistema...
-Obrigado por utilizar a Locadora de Veículos!
+                 ↓
+      Se opção == 0 → FINALIZAR
